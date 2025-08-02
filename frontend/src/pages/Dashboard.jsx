@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Dashboard = () => {
+  return (
+    <div className="p-6">
+      <h1 className="text-2xl font-bold">Welcome to your Dashboard</h1>
+      <p className="mt-2 text-gray-600">Use the navbar to manage your tickets.</p>
+    </div>
+  );
+};
+
+export default Dashboard;
